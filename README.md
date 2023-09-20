@@ -14,7 +14,7 @@ In this task, Global Genes RareX Challenge committee provided with de-identified
 - Impose a minumum number of cases
 ### Term Frequency(TF) and Inverse Document Frequency(IDF) information (tf/idf)
 - term frequnecy: number of the times, a term is mentioned in a disease / total number of the terms in a disease
-- Inverse Document Frequency(IDF): IDF(h) = (total diseases in the dataset) / (number of the diseases,a term, the term (h) is mentioned +1) + 1
+- Inverse Document Frequency(IDF): IDF(h) = (total diseases in the dataset) / (number of the diseases, a term (h) is mentioned +1) + 1
 ### Generate computational data
 - Compute the specification of terms for diseases with tf/idf
   - compute term frequency (tf) for each term/symtoms with diseases of survey dataset
