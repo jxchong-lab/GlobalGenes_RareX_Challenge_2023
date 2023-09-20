@@ -35,8 +35,388 @@ Code is provided here Task1_RareX.ipynb
 We generate different columns with binary value (0 ,1) to analysis the results for each condition below. We fill the data of a column to 1 if the condition met below, otherwise 0.
 - Top terms: find top top terms if it is above the mean value of the survey_hpo_tf_idf
 - NewRareX: new terms from top terms list
-- novel terms: frequent and new terms from top terms list which is not matched/similar to existing terms in hpo/orpha
+- top_terms_not_match_but_frequent (novel terms): frequent and new terms from top terms list which is not matched/similar to existing terms in hpo/orpha
+- matched_terms_frequent_both: a term is common/frequent to both dataset survey and hpo dataset
+- top_matched_terms_frequent_survey_only: an existing term which is not frequent in orpha/hpo dataset but frequent in survey, and also in the top term list of survey_hpo_tf_idf.
+- top_tf_idf_diff: new top terms if the value of abs_tf_idf_difference is above its mean value
+- top_hpo_term_prop_diff: new top terms if the value of abs_hpo_term_prop_difference is above its mean value
 We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the results:
 - Fisher_pvalue: this column defines pvalue of the fisher exact test for a term. We calculate the pvalue for the count of a term in the survey dataset and hpo dataset.
 - matched_terms_count: this column defines number of the times a matched/similar term from the best_match_terms_pyhpo_gt_06 have been mentioned with the disease.
 
+We provided an example to find the novel term for a disease (Kleefstra syndrome ):
+```python
+disease = rx_orphanet_summary.loc[rx_orphanet_summary.index==rx_in_orphanet[0]]
+disease[dis_orpha['top_terms_not_match_but_frequent']==1]
+```
+
+The following new terms which are top terms for the Kleefstra syndrome show that abnormality of coordination, Somnambulism, Sleep onset insomnia, Drowsiness, Seizure, Abnormality of the musculature, Sleep apnea, .. are common. These terms are important terms for the Kleefstra syndrome but not exist/matched in the hpo/orpha dataset.
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Disease_Name</th>
+      <th>Symptom</th>
+      <th>Count</th>
+      <th>term_proportion</th>
+      <th>survey_tf_idf</th>
+      <th>HPO_Code</th>
+      <th>HPO_label</th>
+      <th>survey_hpo_tf_idf</th>
+      <th>Survey_OrphaClass</th>
+      <th>HPO_Frequency_OrphaClass</th>
+      <th>HPO_Count</th>
+      <th>hpo_dataset_tf_idf</th>
+      <th>Orpha_Frequency</th>
+      <th>Orpha_Count</th>
+      <th>orpha_dataset_tf_idf</th>
+      <th>hpo_orpha_dataset_tf_idf</th>
+      <th>Mapped_Disease_name</th>
+      <th>Matched</th>
+      <th>best_match_terms_pyhpo</th>
+      <th>best_match_terms_pyhpo_gt_06</th>
+      <th>abs_hpo_term_prop_difference</th>
+      <th>fisher_value</th>
+      <th>top_terms</th>
+      <th>NewRareX</th>
+      <th>top_hpo_term_prop_diff</th>
+      <th>top_terms_not_match_but_frequent</th>
+      <th>matched_terms_frequent_both</th>
+      <th>top_matched_terms_frequent_survey_only</th>
+      <th>Found_only_in_HPO</th>
+      <th>matched_terms_count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Kleefstra syndrome</td>
+      <td>Coordination_Issues_Symptom_Present</td>
+      <td>15.0</td>
+      <td>0.625000</td>
+      <td>0.022129</td>
+      <td>HP:0011443</td>
+      <td>Abnormality of coordination</td>
+      <td>0.223117</td>
+      <td>Frequent (79-30%)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Kleefstra syndrome</td>
+      <td>New in RareX</td>
+      <td>HPO(0.44) Seizure: Frequent (79-30%)</td>
+      <td>Not match</td>
+      <td>NaN</td>
+      <td>1.639086e-13</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Kleefstra syndrome</td>
+      <td>CSHQ Subscale 5: Night Wakings</td>
+      <td>11.0</td>
+      <td>0.458333</td>
+      <td>0.016228</td>
+      <td>HP:0025236</td>
+      <td>Somnambulism</td>
+      <td>0.175368</td>
+      <td>Frequent (79-30%)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Kleefstra syndrome</td>
+      <td>New in RareX</td>
+      <td>HPO(0.32) Sleep disturbance: Frequent (79-30%)</td>
+      <td>Not match</td>
+      <td>NaN</td>
+      <td>1.476035e-09</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Kleefstra syndrome</td>
+      <td>CSHQ Subscale 2: Sleep onset Delay</td>
+      <td>12.0</td>
+      <td>0.500000</td>
+      <td>0.017703</td>
+      <td>HP:0031354</td>
+      <td>Sleep onset insomnia</td>
+      <td>0.174368</td>
+      <td>Frequent (79-30%)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Kleefstra syndrome</td>
+      <td>New in RareX</td>
+      <td>HPO(0.54) Sleep disturbance: Frequent (79-30%)</td>
+      <td>Not match</td>
+      <td>NaN</td>
+      <td>1.698093e-10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Kleefstra syndrome</td>
+      <td>CSHQ Subscale 8: Daytime Sleepiness</td>
+      <td>12.0</td>
+      <td>0.500000</td>
+      <td>0.017703</td>
+      <td>HP:0002329</td>
+      <td>Drowsiness</td>
+      <td>0.139476</td>
+      <td>Frequent (79-30%)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Kleefstra syndrome</td>
+      <td>New in RareX</td>
+      <td>HPO(0.36) Atypical behavior: Frequent (79-30%)</td>
+      <td>Not match</td>
+      <td>NaN</td>
+      <td>1.698093e-10</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Kleefstra syndrome</td>
+      <td>Abnormal_Muscle_Function_Symptom_Present</td>
+      <td>11.0</td>
+      <td>0.458333</td>
+      <td>0.016228</td>
+      <td>HP:0003011</td>
+      <td>Abnormality of the musculature</td>
+      <td>0.130043</td>
+      <td>Frequent (79-30%)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Kleefstra syndrome</td>
+      <td>New in RareX</td>
+      <td>HPO(0.37) Hypotonia: Very frequent (99-80%)</td>
+      <td>Not match</td>
+      <td>NaN</td>
+      <td>1.476035e-09</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Kleefstra syndrome</td>
+      <td>CSHQ Subscale 7: Sleep Disordered Breathing</td>
+      <td>11.0</td>
+      <td>0.458333</td>
+      <td>0.016228</td>
+      <td>HP:0010535</td>
+      <td>Sleep apnea</td>
+      <td>0.119823</td>
+      <td>Frequent (79-30%)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Kleefstra syndrome</td>
+      <td>New in RareX</td>
+      <td>HPO(0.41) Sleep disturbance: Frequent (79-30%)</td>
+      <td>Not match</td>
+      <td>NaN</td>
+      <td>1.476035e-09</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Kleefstra syndrome</td>
+      <td>Abnormal_Eye_Movement_Symptom_Present</td>
+      <td>11.0</td>
+      <td>0.458333</td>
+      <td>0.017703</td>
+      <td>HP:0000496</td>
+      <td>Abnormality of eye movement</td>
+      <td>0.115640</td>
+      <td>Frequent (79-30%)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Kleefstra syndrome</td>
+      <td>New in RareX</td>
+      <td>HPO(0.16) Hypertelorism: Very frequent (99-80%)</td>
+      <td>Not match</td>
+      <td>NaN</td>
+      <td>1.476035e-09</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Kleefstra syndrome</td>
+      <td>Abnormal_Ear_Symptom_Present</td>
+      <td>8.0</td>
+      <td>0.333333</td>
+      <td>0.017596</td>
+      <td>HP:0000598</td>
+      <td>Abnormality of the ear</td>
+      <td>0.109347</td>
+      <td>Frequent (79-30%)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Kleefstra syndrome</td>
+      <td>New in RareX</td>
+      <td>HPO(0.26) Hearing impairment: Occasional (29-5%)</td>
+      <td>Not match</td>
+      <td>NaN</td>
+      <td>6.680639e-07</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Kleefstra syndrome</td>
+      <td>Conductive_Hearing_Loss_Symptom_Present</td>
+      <td>10.0</td>
+      <td>0.416667</td>
+      <td>0.023058</td>
+      <td>HP:0000405</td>
+      <td>Conductive hearing impairment</td>
+      <td>0.099830</td>
+      <td>Frequent (79-30%)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Kleefstra syndrome</td>
+      <td>New in RareX</td>
+      <td>HPO(0.45) Hearing impairment: Occasional (29-5%)</td>
+      <td>Not match</td>
+      <td>NaN</td>
+      <td>1.201914e-08</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Kleefstra syndrome</td>
+      <td>Abnormal_EEG_Symptom_Present</td>
+      <td>8.0</td>
+      <td>0.333333</td>
+      <td>0.012875</td>
+      <td>HP:0002353</td>
+      <td>EEG abnormality</td>
+      <td>0.073009</td>
+      <td>Frequent (79-30%)</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Kleefstra syndrome</td>
+      <td>New in RareX</td>
+      <td>HPO(0.17) Seizure: Frequent (79-30%)</td>
+      <td>Not match</td>
+      <td>NaN</td>
+      <td>6.680639e-07</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>[]</td>
+    </tr>
+  </tbody>
+</table>
