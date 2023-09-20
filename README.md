@@ -44,15 +44,16 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
 - Fisher_pvalue: this column defines pvalue of the fisher exact test for a term. We calculate the pvalue for the count of a term in the survey dataset and hpo dataset.
 - matched_terms_count: this column defines number of the times a matched/similar term from the best_match_terms_pyhpo_gt_06 have been mentioned with the disease.
 
+## Example
 We show some examples to find the novel term, new terms, common terms for a disease (Kleefstra syndrome ):
 
 ```python
 disease = rx_orphanet_summary.loc[rx_orphanet_summary.index==rx_in_orphanet[0]]
 ```
 
-The following new terms which are top terms for the Kleefstra syndrome show that abnormality of coordination, Somnambulism, Sleep onset insomnia, Drowsiness, Seizure, Abnormality of the musculature, Sleep apnea, .. are common. These terms are important terms for the Kleefstra syndrome but not exist/matched in the hpo/orpha dataset.
+Novel terms: The following new terms which are top terms for the Kleefstra syndrome show that abnormality of coordination, Somnambulism, Sleep onset insomnia, Drowsiness, Seizure, Abnormality of the musculature, Sleep apnea, .. are common. These terms are important terms for the Kleefstra syndrome but not exist/matched in the hpo/orpha dataset.
 ```python
-disease[dis_orpha['top_terms_not_match_but_frequent']==1]
+disease[disease['top_terms_not_match_but_frequent']==1]
 ```
 <table border="1" class="dataframe">
   <thead>
@@ -425,9 +426,9 @@ disease[dis_orpha['top_terms_not_match_but_frequent']==1]
 </table>
 
 
-The following terms are new and top terms for the Kleefstra syndrome. We see 'Abnormality of coordination', 'Somnambulism', 'Sleep onset insomnia', 'Drowsiness', .. from the follwing lists are new or different from hpo or orphanet dataset. 
+New terms: The following terms are new and top terms for the Kleefstra syndrome. We see 'Abnormality of coordination', 'Somnambulism', 'Sleep onset insomnia', 'Drowsiness', .. from the follwing lists are new or different from hpo or orphanet dataset. 
 ```python
-disease[dis_orpha['NewRareX']==1]
+disease[disease['NewRareX']==1]
 ```
 
 <table border="1" class="dataframe">
@@ -800,10 +801,10 @@ disease[dis_orpha['NewRareX']==1]
   </tbody>
 </table>
 
-Kleefstra syndrom show agreement for Constipation, Abnormal repetitive mannerisms, hypotonia, Sleep disturbance, Seizure, Autistic behavior whcih are are common in hpo and survey dataset.
+Common terms: Kleefstra syndrom show agreement for Constipation, Abnormal repetitive mannerisms, hypotonia, Sleep disturbance, Seizure, Autistic behavior whcih are are common in hpo and survey dataset.
 
 ```python
-disease.loc[dis_orpha['top_matched_terms_frequent_survey_only']==1]
+disease.loc[disease['top_matched_terms_frequent_survey_only']==1]
 ```
 
 <table border="1" class="dataframe">
