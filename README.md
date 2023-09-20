@@ -1,7 +1,7 @@
 # Global Genes RareX Challenge 2023: Identify underrecognized symptoms / Expand definition of rare disease
 
 ## Overview
-Global Genes announce our team ‘Best open source method to benefit rare disease research’ as one of the winners for this challenge. 
+Global Genes announces our team ‘Best open source method to benefit rare disease research’ as one of the winners for this challenge. 
 <br><br>
 https://t.co/lRXHjFD9w8 <br>
 https://twitter.com/RARE_X_/status/1704538663445471713?s=20
