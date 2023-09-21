@@ -15,6 +15,7 @@ We needed to map each symptom label in the GGRC dataset to an HPO term in order 
 
 ## Mehtod
 ### Clean and filter data
+- We call GGRC  dataset 'survey dataset' in our code
 - Ignore cases has no one value
 - Impose a minumum number of cases
 ### Term Frequency(TF) and Inverse Document Frequency(IDF) information (tf/idf)
