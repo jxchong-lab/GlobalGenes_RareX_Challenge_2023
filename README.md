@@ -9,7 +9,7 @@ https://t.co/lRXHjFD9w8 <br>
 https://twitter.com/RARE_X_/status/1704538663445471713?s=20
 
 
-In this task, GGRC provided with de-identified data (not downloadable) on patient populations in a flat table highlighting different phenotypes and genetic diagnoses. The task focused on expanding known phenotypes with previously unrecognized symptoms. We explore this data to determine if there are novel or underrecognized phenotypes correlated with specific rare diseases and submitted our results, approach and code. 
+In this task, GGRC provided de-identified data (not downloadable) on patient populations in a flat table highlighting different phenotypes and genetic diagnoses. The task focused on expanding known phenotypes with previously unrecognized symptoms. We explore this data to determine if there are novel or underrecognized phenotypes correlated with specific rare diseases and submitted our results, approach and code. 
 
 ## Mehtod
 ### Clean and filter data
