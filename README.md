@@ -101,9 +101,9 @@ disease[disease['top_terms_not_match_but_frequent']==1]
       <th>0</th>
       <td>Kleefstra syndrome</td>
       <td>Coordination_Issues_Symptom_Present</td>
-      <td>15.0</td>
-      <td>0.625000</td>
-      <td>0.022129</td>
+      <td>x</td>
+      <td>x</td>
+      <td>x</td>
       <td>HP:0011443</td>
       <td>Abnormality of coordination</td>
       <td>0.223117</td>
@@ -180,9 +180,9 @@ disease[disease['NewRareX']==1]
       <th>0</th>
       <td>Kleefstra syndrome</td>
       <td>Coordination_Issues_Symptom_Present</td>
-      <td>15.0</td>
-      <td>0.625000</td>
-      <td>0.022129</td>
+      <td>x</td>
+      <td>x</td>
+      <td>x</td>
       <td>HP:0011443</td>
       <td>Abnormality of coordination</td>
       <td>0.223117</td>
