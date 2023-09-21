@@ -1,15 +1,17 @@
 # Global Genes RareX Challenge 2023: Identify underrecognized symptoms / Expand definition of rare disease
 
 ## Overview
-[Global Genes RareX Challenge committee (GGRC)](https://globalgenes.org/) announces our team one of the winners for this challenge as below. 
+Our team was one of the winners for Task 1 of the [Global Genes RareX Challenge committee (GGRC)](https://globalgenes.org/)!. 
 
-Best open source method to benefit rare disease research: Chong Lab team, led by Jessica Chong, Ph.D., Assistant Professor in Pediatrics at the University of Washington, Seattle. Code is provided here Task1_RareX.ipynb
+"Best open source method to benefit rare disease research": Chong Lab team, led by Jessica Chong, Ph.D., Assistant Professor in Pediatrics at the University of Washington, Seattle. Code is provided here Task1_RareX.ipynb
 
 https://t.co/lRXHjFD9w8 <br>
 https://twitter.com/RARE_X_/status/1704538663445471713?s=20
 
 
-In this task, GGRC provided de-identified data (not downloadable) on patient populations in a flat table highlighting different phenotypes and genetic diagnoses. The task focused on expanding known phenotypes with previously unrecognized symptoms. We explore this data to determine if there are novel or underrecognized phenotypes correlated with specific rare diseases and submitted our results, approach and code. 
+In Task 1, the GGRC provided de-identified, individual-level phenotypic data associated with a named diagnosis in a flat table. We cannot share this data. The task focused on identifying differences between the known phenotypic effects associated with a specific genetic diagnosis and phenotypic effects reported by families with that diagnosis in order to identify previously under-recognized symptoms. We explored this data to determine if there are novel or underrecognized clinical findings for each rare disease.
+
+We needed to map each symptom label in the GGRC dataset to an HPO term in order to take advantage of the HPO/OMIM/OrphaNet database. We used multiple methods (NLP as well as tree-based similarity) to identify potentially overlapping symptoms/terms between GGRC and HPO. We also reviewed the output of these scripts manually to identify the differences that were most likely to be clinically meaningful and therefore of interest to GGRC. 
 
 ## Mehtod
 ### Clean and filter data
@@ -48,7 +50,7 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
 - matched_terms_count: this column defines number of the times a matched/similar term from the best_match_terms_pyhpo_gt_06 have been mentioned with the disease.
 
 ## Example
-We show some examples to find the novel term, new terms, common terms for a disease (Kleefstra syndrome ):
+We show some examples to find the novel term, new terms, and common terms for a disease (Kleefstra syndrome ):
 
 ```python
 disease = rx_orphanet_summary.loc[rx_orphanet_summary.index==rx_in_orphanet[0]]
