@@ -155,7 +155,7 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
         </tr>
         <tr>
             <td style="width: 143.75pt;border-right: 1pt solid rgb(102, 102, 102);border-bottom: 1pt solid rgb(102, 102, 102);border-left: 1pt solid rgb(102, 102, 102);border-image: initial;border-top: none;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">survey_hpo_tf_idf:</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">survey_hpo_tf_idf</span></p>
             </td>
             <td style="width: 323.75pt;border-top: none;border-left: none;border-bottom: 1pt solid rgb(102, 102, 102);border-right: 1pt solid rgb(102, 102, 102);padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">
@@ -173,7 +173,7 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
         </tr>
         <tr>
             <td style="width: 143.75pt;border-right: 1pt solid rgb(102, 102, 102);border-bottom: 1pt solid rgb(102, 102, 102);border-left: 1pt solid rgb(102, 102, 102);border-image: initial;border-top: none;padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">HPO_Frequency:&nbsp;</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">HPO_Frequency</span></p>
             </td>
             <td style="width: 323.75pt;border-top: none;border-left: none;border-bottom: 1pt solid rgb(102, 102, 102);border-right: 1pt solid rgb(102, 102, 102);padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">If the term frequency is sourced from the Orphanet dataset it is labeled as “sourced from OrphaNet, otherwise the frequency is sourced from the HPO dataset and this is represented as a blank entry in this column. &nbsp;</span></p>
