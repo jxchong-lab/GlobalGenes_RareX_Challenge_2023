@@ -94,10 +94,10 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
         </tr>
         <tr>
             <td style="width: 143.75pt;border-right: 1pt solid rgb(102, 102, 102);border-bottom: 1pt solid rgb(102, 102, 102);border-left: 1pt solid rgb(102, 102, 102);border-image: initial;border-top: none;background: rgb(204, 204, 204);padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">survey_frequency&nbsp;</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">survey_frequency</span></p>
             </td>
             <td style="width: 323.75pt;border-top: none;border-left: none;border-bottom: 1pt solid rgb(102, 102, 102);border-right: 1pt solid rgb(102, 102, 102);background: rgb(204, 204, 204);padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">&lsquo;Symptom Count&rsquo;/total number of the terms in a disease, d</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">Symptom Count/total number of the terms in a disease, d</span></p>
             </td>
         </tr>
         <tr>
@@ -116,7 +116,7 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
             </td>
             <td style="width: 323.75pt;border-top: none;border-left: none;border-bottom: 1pt solid rgb(102, 102, 102);border-right: 1pt solid rgb(102, 102, 102);background: rgb(204, 204, 204);padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">tf * idf of a term in the survey data for the disease</span></p>
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">survey_tf_idf = &lsquo;survey_frequency&rsquo; * &lsquo;survey_idf&rsquo;</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">survey_tf_idf = survey_frequency * survey_idf</span></p>
             </td>
         </tr>
         <tr>
@@ -202,7 +202,7 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
             <td style="width: 323.75pt;border-top: none;border-left: none;border-bottom: 1pt solid rgb(102, 102, 102);border-right: 1pt solid rgb(102, 102, 102);background: rgb(204, 204, 204);padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">tf * idf of a term in the HPO dataset for a disease, d</span></p>
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">hpo_tf = HPO_Count/Total HPO_Count in a disease, d</span></p>
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">hpo_dataset_tf_idf = &nbsp; &nbsp; hpo_tf &nbsp;* hpo_dataset_idf</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">hpo_dataset_tf_idf = hpo_tf * hpo_dataset_idf</span></p>
             </td>
         </tr>
         <tr>
@@ -275,7 +275,7 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">Look up the mapped HPO term from the survey data in the orphanet/hpo dataset. This column has the following classifications:</span></p>
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">&apos;New in RareX&apos; represents when a term of the survey disease does not exist in the orphanet/HPO</span></p>
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">&apos;Matched in Orpha/HPO&apos; represents when a term already exists in the orphanet/HPO for a disease</span></p>
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">&apos; Not  in survey, Found in Orpha/HPO&apos; represents when a term was in the Orphanet/HPO dataset but was not in the survey data.</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">&apos;Not  in survey, Found in Orpha/HPO&apos; represents when a term was in the Orphanet/HPO dataset but was not in the survey data.</span></p>
             </td>
         </tr>
         <tr>
@@ -319,8 +319,8 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">abs_hpo_term_prop_difference</span></p>
             </td>
             <td style="width: 323.75pt;border-top: none;border-left: none;border-bottom: 1pt solid rgb(102, 102, 102);border-right: 1pt solid rgb(102, 102, 102);padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;"> This column defines the absolute difference between survey and HPO term proportion. If the term is new in rareX, we provide the difference of each term in ‘best_terms_match’ column and the selected term.</span></p>
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">abs_hpo_term_prop_difference = &lsquo;term_proportion&rsquo;- HPO_Count/100</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">This column defines the absolute difference between survey and HPO term proportion. If the term is new in rareX, we provide the difference of each term in ‘best_terms_match’ column and the selected term.</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">abs_hpo_term_prop_difference = term_proportion- HPO_Count/100</span></p>
             </td>
         </tr>
         <tr>
@@ -328,8 +328,8 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">abs_orphanet_term_prop_difference</span></p>
             </td>
             <td style="width: 323.75pt;border-top: none;border-left: none;border-bottom: 1pt solid rgb(102, 102, 102);border-right: 1pt solid rgb(102, 102, 102);background: rgb(204, 204, 204);padding: 0in 5.4pt;vertical-align: top;">
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;"> This column defines the absolute difference between survey and orphanet term proportion. If the term is new in rareX, we provide difference of each term in ‘best_terms_match’ column and the selected term</span></p>
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">abs_orphanet_term_prop_difference = &lsquo;term_proportion&rsquo;- Orpha_Count/100</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">This column defines the absolute difference between survey and orphanet term proportion. If the term is new in rareX, we provide difference of each term in ‘best_terms_match’ column and the selected term</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">abs_orphanet_term_prop_difference = term_proportion- Orpha_Count/100</span></p>
             </td>
         </tr>
         <tr>
@@ -347,7 +347,7 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
             <td style="width: 323.75pt;border-top: none;border-left: none;border-bottom: 1pt solid rgb(102, 102, 102);border-right: 1pt solid rgb(102, 102, 102);background: rgb(204, 204, 204);padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">This column defines if a term is top of the list of the survey_hpo_tf_idf. We take the mean survey_hpo_tf_idf for each disease, and find the top terms if it is above the mean value of the survey_hpo_tf_idf. The data has the following classifications</span></p>
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">1: a term is in the top terms list for a disease</span></p>
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">0: &nbsp;not in the top term list</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">0: not in the top term list</span></p>
             </td>
         </tr>
         <tr>
@@ -367,7 +367,7 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
             <td style="width: 323.75pt;border-top: none;border-left: none;border-bottom: 1pt solid rgb(102, 102, 102);border-right: 1pt solid rgb(102, 102, 102);background: rgb(204, 204, 204);padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">This column defines if a term is a new finding for a disease. We say a term is a new finding for a disease if a term is in a top term list of the survey_hpo_tf_idf and not matched or similar to any term in Orphanet/HPO dataset, and frequent in survey data. The data represent has the following classifications.</span></p>
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">1: a term is a new finding for a disease</span></p>
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">0: &nbsp;a term is not new</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">0: a term is not new</span></p>
             </td>
         </tr>
         <tr>
@@ -377,7 +377,7 @@ We also added two columns 'Fisher_pvalue' and 'matched_terms_count' to test the 
             <td style="width: 323.75pt;border-top: none;border-left: none;border-bottom: 1pt solid rgb(102, 102, 102);border-right: 1pt solid rgb(102, 102, 102);padding: 0in 5.4pt;vertical-align: top;">
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">This column defines if a term is common/frequent to both the survey and HPO datasets. The data has the following classifications.</span></p>
                 <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">1: a term is common for both dataset</span></p>
-                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">0: &nbsp;a term is not common for both dataset</span></p>
+                <p style='margin-top:0in;margin-right:0in;margin-bottom:.0001pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:  normal;'><span style="font-size:13px;color:black;">0: a term is not common for both dataset</span></p>
             </td>
         </tr>
         <tr>
