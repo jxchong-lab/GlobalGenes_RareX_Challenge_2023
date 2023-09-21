@@ -1,7 +1,7 @@
 # Global Genes RareX Challenge 2023: Identify underrecognized symptoms / Expand definition of rare disease
 
 ## Overview
-Global Genes RareX Challenge committee (GGRC) announces our team one of the winners for this challenge. 
+Global Genes RareX Challenge committee (GGRC) announces our team one of the winners for this challenge as below. 
 
 Best open source method to benefit rare disease research: Chong Lab team, led by Jessica Chong, Ph.D., Assistant Professor in Pediatrics at the University of Washington, Seattle. Code is provided here Task1_RareX.ipynb
 
