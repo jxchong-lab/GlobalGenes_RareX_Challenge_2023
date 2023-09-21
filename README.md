@@ -34,7 +34,6 @@ We needed to map each symptom label in the GGRC dataset to an HPO term in order 
 ### Compare RARE-X Data to Orphanet and HPO
 - Check new hpo in the survey: Look up the new hpo in the survey data which are not in the orpahnet/hpo dataset
 - Look up best similar hpo term from orphanet/hpo dataset for a term if the term is not found in the the orpahnet/hpo dataset
-  - We used pyhpo package (https://pypi.org/project/pyhpo/) to find match between terms  
 - Check novel hpo if it is new and not simialir to any term in hpo/orphanet dataset.
 ### Generate data for the analyze
 We generate different columns with binary value (0 ,1) to analysis the results for each condition below. We fill the data of a column to 1 if the condition met below, otherwise 0.
