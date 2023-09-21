@@ -423,7 +423,6 @@ disease[disease['top_terms_not_match_but_frequent']==1]
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>Disease_Name</th>
       <th>Symptom</th>
       <th>Count</th>
@@ -458,7 +457,6 @@ disease[disease['top_terms_not_match_but_frequent']==1]
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td>Kleefstra syndrome</td>
       <td>Coordination_Issues_Symptom_Present</td>
       <td>x</td>
@@ -502,7 +500,6 @@ disease[disease['NewRareX']==1]
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>Disease_Name</th>
       <th>Symptom</th>
       <th>Count</th>
@@ -537,7 +534,6 @@ disease[disease['NewRareX']==1]
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td>Kleefstra syndrome</td>
       <td>Coordination_Issues_Symptom_Present</td>
       <td>x</td>
