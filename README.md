@@ -9,7 +9,7 @@ https://t.co/lRXHjFD9w8 <br>
 https://twitter.com/RARE_X_/status/1704538663445471713?s=20
 
 
-In Task 1, the GGRC provided de-identified, individual-level phenotypic data associated with a named diagnosis in a flat table. We cannot share this data. The task focused on identifying differences between the known phenotypic effects associated with a specific genetic diagnosis and phenotypic effects reported by families with that diagnosis in order to identify previously under-recognized symptoms. We explored this data to determine if there are novel or underrecognized clinical findings for each rare disease.
+In Task 1, the GGRC provided de-identified, individual-level phenotypic data associated with a named diagnosis in a flat table (we call this here 'survey dataset'). We cannot share this data. The task focused on identifying differences between the known phenotypic effects associated with a specific genetic diagnosis and phenotypic effects reported by families with that diagnosis in order to identify previously under-recognized symptoms. We explored this data to determine if there are novel or underrecognized clinical findings for each rare disease.
 
 We needed to map each symptom label in the GGRC dataset to an HPO term in order to take advantage of the HPO/OMIM/OrphaNet database. We used multiple methods (NLP as well as tree-based similarity) to identify potentially overlapping symptoms/terms between GGRC and HPO. These terms were manually reviewed to confirm/refute potential overlap. We also reviewed the output of these scripts manually to identify the differences that were most likely to be clinically meaningful and therefore of interest to GGRC. 
 
