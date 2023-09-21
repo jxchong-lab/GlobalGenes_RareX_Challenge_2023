@@ -28,7 +28,7 @@ In this task, GGRC provided with de-identified data (not downloadable) on patien
   - Very frequent: more than 80%
   - Frequent: between 30% and 80%
   - Occasional: fewer than 30%
--Map the symotoms to HPO terms
+- Map the symotoms to HPO terms
 ### Compare RARE-X Data to Orphanet and HPO
 - Check new hpo in the survey: Look up the new hpo in the survey data which are not in the orpahnet/hpo dataset
 - Look up best similar hpo term from orphanet/hpo dataset for a term if the term is not found in the the orpahnet/hpo dataset
