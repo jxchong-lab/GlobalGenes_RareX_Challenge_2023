@@ -24,7 +24,7 @@ In this task, GGRC provided with de-identified data (not downloadable) on patien
   - Compute survey idf of the terms with diseases from survey dataset
   - Compute hpo idf of the terms with diseases from hpo dataset
   - Compute tf/idf by multiplying combine hpo and survey idf with term frequency of survet dataset 
-- Compute the freuency of a term in survey dataset as orphanet with the following classifications.
+- Compute the frequency of a term in survey dataset as orphanet with the following classifications.
   - Very frequent: more than 80%
   - Frequent: between 30% and 80%
   - Occasional: fewer than 30%
