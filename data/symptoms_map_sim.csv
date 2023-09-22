@@ -1,223 +1,223 @@
 ,Symptom,Curated HPO
-0,Symptom 0,HP:0002099
-1,Symptom 1,HP:0006510
-2,Symptom 2,HP:0002086
-3,Symptom 3,HP:0002795
-4,Symptom 4,HP:0000775
-5,Symptom 5,HP:0002093
-6,Symptom 6,HP:0002091
-7,Symptom 7,HP:0002094
-8,Symptom 8,HP:0002087
-9,Symptom 9,HP:0000496
-10,Symptom 10,HP:0000505
-11,Symptom 11,HP:0200007
-12,Symptom 12,HP:0000525
-13,Symptom 13,HP:0000589
-14,Symptom 14,HP:0000517
-15,Symptom 15,HP:0000504
-16,Symptom 16,HP:0000540
-17,Symptom 17,HP:0000545
-18,Symptom 18,HP:0000587
-19,Symptom 19,HP:0000479
-20,Symptom 20,HP:0000508
-21,Symptom 21,HP:0001907
-22,Symptom 22,HP:0001928
-23,Symptom 23,HP:0011889
-24,Symptom 24,HP:0000978
-25,Symptom 25,HP:0001892
-26,Symptom 26,HP:0001978
-27,Symptom 27,HP:0000421
-28,Symptom 28,HP:0001872
-29,Symptom 29,HP:0001877
-30,Symptom 30,HP:0001881
-31,Symptom 31,HP:0000301
-32,Symptom 32,HP:0003011
-33,Symptom 33,HP:0003011
-34,Symptom 34,HP:0000924
-35,Symptom 35,HP:0009127
-36,Symptom 36,HP:0410167
-37,Symptom 37,HP:0011006
-38,Symptom 38,HP:0100285
-39,Symptom 39,HP:0003560
-40,Symptom 40,HP:0002656
-41,Symptom 41,HP:0010674
-42,Symptom 42,HP:0001382
-43,Symptom 43,HP:0000939
-44,Symptom 44,HP:0002659
-45,Symptom 45,HP:0011297
-46,Symptom 46,HP:0001155
-47,Symptom 47,HP:0001760
-48,Symptom 48,HP:0001385
-49,Symptom 49,HP:0000768
-50,Symptom 50,HP:0000767
-51,Symptom 51,HP:0002652
-52,Symptom 52,HP:0001560
-53,Symptom 53,HP:0001558
-54,Symptom 54,HP:0001787
-55,Symptom 55,HP:0002686
-56,Symptom 56,HP:0100767
-57,Symptom 57,HP:0031437
-58,Symptom 58,HP:0001622
-59,Symptom 59,HP:0010881
-60,Symptom 60,HP:0000306
-61,Symptom 61,HP:0001595
-62,Symptom 62,HP:0000153
-63,Symptom 63,HP:0000153
-64,Symptom 64,HP:0000464
-65,Symptom 65,HP:0000366
-66,Symptom 66,HP:0002015
-67,Symptom 67,HP:0005978
-68,Symptom 68,HP:0100651
-69,Symptom 69,HP:0000819
-70,Symptom 70,HP:0000823
-71,Symptom 71,HP:0000873
-72,Symptom 72,HP:0000824
-73,Symptom 73,HP:0000826
-74,Symptom 74,HP:0000135
-75,Symptom 75,HP:0008221
-76,Symptom 76,HP:0000836
-77,Symptom 77,HP:0000821
-78,Symptom 78,HP:0000853
-79,Symptom 79,HP:0000843
-80,Symptom 80,HP:0000829
-81,Symptom 81,HP:0000852
-82,Symptom 82,HP:0011968
-83,Symptom 83,HP:0002019
-84,Symptom 84,HP:0012719
-85,Symptom 85,HP:0012719
-86,Symptom 86,HP:0001732
-87,Symptom 87,HP:0001392
-88,Symptom 88,HP:0002579
-89,Symptom 89,HP:0012719
-90,Symptom 90,HP:0012719
-91,Symptom 91,HP:0004378
-92,Symptom 92,HP:0001548
-93,Symptom 93,HP:0001513
-94,Symptom 94,HP:0100555
-95,Symptom 95,HP:0004322
-96,Symptom 96,HP:0001508
-97,Symptom 97,HP:0000845
-98,Symptom 98,HP:0000098
-99,Symptom 99,HP:0002617
-100,Symptom 100,HP:0011675
-101,Symptom 101,HP:0003115
-102,Symptom 102,HP:0005294
-103,Symptom 103,HP:0001638
-104,Symptom 104,HP:0001627
-105,Symptom 105,HP:0000822
-106,Symptom 106,HP:0003124
-107,Symptom 107,HP:0003077
-108,Symptom 108,HP:0001297
-109,Symptom 109,HP:0001075
-110,Symptom 110,HP:0000957
-111,Symptom 111,HP:0000953
-112,Symptom 112,HP:0001010
-113,Symptom 113,HP:0000966
-114,Symptom 114,HP:0000975
-115,Symptom 115,HP:0001030
-116,Symptom 116,HP:0000992
-117,Symptom 117,HP:0001072
-118,Symptom 118,HP:0000974
-119,Symptom 119,HP:0000973
-120,Symptom 120,HP:0000704
-121,Symptom 121,HP:0000230
-122,Symptom 122,HP:0003763
-123,Symptom 123,HP:0000689
-124,Symptom 124,HP:0410028
-125,Symptom 125,HP:0025124
-126,Symptom 126,HP:0033748
-127,Symptom 127,HP:0006482
-128,Symptom 128,HP:0006481
-129,Symptom 129,HP:0006486
-130,Symptom 130,HP:0006479
-131,Symptom 131,HP:0000692
-132,Symptom 132,HP:0003003
-133,Symptom 133, HP:0009726
-134,Symptom 134,HP:0100031
-135,Symptom 135,HP:0008069
-136,Symptom 136,HP:0100006
-137,Symptom 137,HP:0001909
-138,Symptom 138,HP:0002960
-139,Symptom 139,HP:0002721
-140,Symptom 140,HP:0012647
-141,Symptom 141,HP:0002719
-142,Symptom 142,HP:0001370
-143,Symptom 143,HP:0000014
-144,Symptom 144,HP:0012211
-145,Symptom 145,HP:0012210
-146,Symptom 146,HP:0030012
-147,Symptom 147,HP:0000080
-148,Symptom 148,HP:0000729
-149,Symptom 149,HP:0007302
-150,Symptom 150,HP:0100753
-151,Symptom 151,HP:0000733
-152,Symptom 152,HP:0006919
-153,Symptom 153,HP:0000739
-154,Symptom 154,HP:0000716
-155,Symptom 155,HP:0000746
-156,Symptom 156,HP:0000738
-157,Symptom 157,HP:0000722
-158,Symptom 158,HP:0000709
-159,Symptom 159,HP:0000736
-160,Symptom 160,HP:0034436
-161,Symptom 161,HP:0001344
-162,Symptom 162,HP:5200029
-163,Symptom 163,HP:0000712
-164,Symptom 164,HP:0000752
-165,Symptom 165,HP:0100710
-166,Symptom 166,HP:0025160
-167,Symptom 167,HP:0100716
-168,Symptom 168,HP:0000598
-169,Symptom 169,HP:0000405
-170,Symptom 170,HP:0000407
-171,Symptom 171,HP:0000410
-172,Symptom 172,HP:0000360
-173,Symptom 173,HP:0010780
-174,Symptom 174,HP:0002321
-175,Symptom 175,HP:0100021
-176,Symptom 176,HP:0100543
-177,Symptom 177,HP:0002315
-178,Symptom 178,HP:0011443
-179,Symptom 179,HP:0002353
-180,Symptom 180,HP:0001276
-181,Symptom 181,HP:0001252
-182,Symptom 182,HP:0002354
-183,Symptom 183,HP:0100022
-184,Symptom 184,HP:0001300
-185,Symptom 185,HP:0001250
-186,Symptom 186,HP:0003002
-187,Symptom 187,HP:0100615
-188,Symptom 188,HP:0010784
-189,Symptom 189,HP:0032241
-190,Symptom 190,HP:0012125
-191,Symptom 191,HP:0100526
-192,Symptom 192,HP:0002894
-193,Symptom 193,HP:0009725
-194,Symptom 194,HP:0012056
-195,Symptom 195,HP:0007018
-196,Symptom 196,HP:0000739
-197,Symptom 197,HP:0000717
-198,Symptom 198,HP:0000716
-199,Symptom 199,HP:0001328
-200,Symptom 200,HP:0001249
-201,Symptom 201,HP:0100021
-202,Symptom 202,HP:0000365
-203,Symptom 203,HP:0002076
-204,Symptom 204,HP:0100022
-205,Symptom 205,HP:0002360
-206,Symptom 206,HP:0000505
-207,Symptom 207,HP:0000256
-208,Symptom 208,HP:0000252
-209,Symptom 209,HP:0000267
-210,Symptom 210,HP:0033454
-211,Symptom 211,HP:0004887
-212,Symptom 212, HP:0000238
-213,Symptom 213,HP:0002374
-214,Symptom 214,HP:0002360
-215,Symptom 215,HP:0031354
-216,Symptom 216,HP:0002360
-217,Symptom 217,HP:0002360
-218,Symptom 218,HP:0025236
-219,Symptom 219,HP:0025234
-220,Symptom 220,HP:0010535
-221,Symptom 221,HP:0002329
+0,Anteverted_nares_Symptom_Present,HP:0000678
+1,Cleft_lip_Symptom_Present,HP:0012110
+2,Ptosis_Symptom_Present,HP:0000407
+3,Aplasia/Hypoplasia_of_the_phalanges_of_the_hand_Symptom_Present,HP:0000368
+4,Oligodontia_Symptom_Present,HP:0000402
+5,Periorbital_fullness_Symptom_Present,HP:0000685
+6,Prominent_occiput_Symptom_Present,HP:0012471
+7,Micrognathia_Symptom_Present,HP:0000540
+8,Abnormal_palate_morphology_Symptom_Present,HP:0000413
+9,Wide_mouth_Symptom_Present,HP:0001360
+10,Choanal_stenosis_Symptom_Present,HP:0000692
+11,Myopia_Symptom_Present,HP:0003316
+12,Facial_palsy_Symptom_Present,HP:0010282
+13,Recurrent_urinary_tract_infections_Symptom_Present,HP:0000508
+14,Dyskinesia_Symptom_Present,HP:0012020
+15,Deep_palmar_crease_Symptom_Present,HP:0004322
+16,Hypotonia_Symptom_Present,HP:0001156
+17,Abnormality_of_brain_morphology_Symptom_Present,HP:0000668
+18,Dry_skin_Symptom_Present,HP:0009916
+19,Thyroid_hypoplasia_Symptom_Present,HP:0004626
+20,Single-lobed_right_lung_Symptom_Present,HP:0004502
+21,Delayed_puberty_Symptom_Present,HP:0007308
+22,Prominent_ear_helix_Symptom_Present,HP:0000089
+23,Absence_of_pubertal_development_Symptom_Present,HP:0000520
+24,Abnormality_of_the_dorsal_column_of_the_spinal_cord_Symptom_Present,HP:0000486
+25,Gait_disturbance_Symptom_Present,HP:0000405
+26,Abnormality_of_the_eye_Symptom_Present,HP:0011682
+27,Renal_cyst_Symptom_Present,HP:0002650
+28,Velopharyngeal_insufficiency_Symptom_Present,HP:0001513
+29,Elbow_dislocation_Symptom_Present,HP:0000403
+30,Abnormal_spinal_cord_morphology_Symptom_Present,HP:0000858
+31,Skeletal_dysplasia_Symptom_Present,HP:0012717
+32,Dysplastic_aortic_valve_Symptom_Present,HP:0001373
+33,Hyperhidrosis_Symptom_Present,HP:0007957
+34,Tethered_cord_Symptom_Present,HP:0000646
+35,Unilateral_renal_hypoplasia_Symptom_Present,HP:0002263
+36,Abnormal_lacrimal_duct_morphology_Symptom_Present,HP:0001592
+37,Pulmonary_artery_stenosis_Symptom_Present,HP:0000957
+38,Proptosis_Symptom_Present,HP:0009591
+39,Agenesis_of_premolar_Symptom_Present,HP:0000445
+40,Eversion_of_lateral_third_of_lower_eyelids_Symptom_Present,HP:0011968
+41,Abnormality_of_the_tympanic_membrane_Symptom_Present,HP:0007993
+42,Preauricular_pit_Symptom_Present,HP:0032367
+43,Hypoplasia_of_the_semicircular_canal_Symptom_Present,HP:0000389
+44,Joint_dislocation_Symptom_Present,HP:0000431
+45,Butterfly_vertebrae_Symptom_Present,HP:0010314
+46,Severe_muscular_hypotonia_Symptom_Present,HP:0012714
+47,Low-set_ears_Symptom_Present,HP:0009738
+48,Cortical_dysplasia_Symptom_Present,HP:0000110
+49,Aplasia_of_the_distal_phalanges_of_the_toes_Symptom_Present,HP:0032466
+50,Abnormal_vena_cava_morphology_Symptom_Present,HP:0000964
+51,Absent_nasal_septal_cartilage_Symptom_Present,HP:0005978
+52,Dysharmonic_delayed_bone_age_Symptom_Present,HP:0005301
+53,Absent_lacrimal_punctum_Symptom_Present,HP:0000122
+54,Abnormal_growth_hormone_level_Symptom_Present,HP:0003042
+55,Malabsorption_Symptom_Present,HP:0001510
+56,Bronchial_isomerism_Symptom_Present,HP:0001679
+57,Cholesteatoma_Symptom_Present,HP:0000674
+58,Lymphopenia_Symptom_Present,HP:0000013
+59,Ectopic_kidney_Symptom_Present,HP:0000787
+60,Upslanted_palpebral_fissure_Symptom_Present,HP:0001092
+61,Scoliosis_Symptom_Present,HP:0008606
+62,Hypotelorism_Symptom_Present,HP:0000047
+63,Otitis_media_Symptom_Present,HP:0002342
+64,obsolete_Prominent_epicanthal_folds_Symptom_Present,HP:0011024
+65,Moderate_hearing_impairment_Symptom_Present,HP:0000589
+66,Aortic_valve_stenosis_Symptom_Present,HP:0000238
+67,"Intellectual_disability,_severe_Symptom_Present",HP:0030148
+68,Recurrent_pneumonia_Symptom_Present,HP:0012810
+69,Epicanthus_Symptom_Present,HP:0001010
+70,Brachycephaly_Symptom_Present,HP:0010944
+71,Breast_aplasia_Symptom_Present,HP:0004209
+72,Hearing_impairment_Symptom_Present,HP:0000823
+73,Heart_murmur_Symptom_Present,HP:0000076
+74,Bilateral_renal_hypoplasia_Symptom_Present,HP:0000028
+75,Lumbar_scoliosis_Symptom_Present,HP:0100790
+76,Multicystic_kidney_dysplasia_Symptom_Present,HP:0000365
+77,Tooth_agenesis_Symptom_Present,HP:0000233
+78,Global_developmental_delay_Symptom_Present,HP:0001633
+79,Thin_lower_lip_vermilion_Symptom_Present,HP:0000369
+80,Atresia_of_the_external_auditory_canal_Symptom_Present,HP:0001650
+81,Obesity_Symptom_Present,HP:0000388
+82,Dimple_chin_Symptom_Present,HP:0000378
+83,Vertigo_Symptom_Present,HP:0002594
+84,Hypogonadotropic_hypogonadism_Symptom_Present,HP:0040090
+85,Abnormal_mitral_valve_morphology_Symptom_Present,HP:0008897
+86,Abnormality_of_the_liver_Symptom_Present,HP:0010781
+87,Cryptorchidism_Symptom_Present,HP:0011382
+88,Axial_hypotonia_Symptom_Present,HP:0005359
+89,Depressed_nasal_bridge_Symptom_Present,HP:0000411
+90,Camptodactyly_Symptom_Present,HP:0031715
+91,Hypoplastic_nipples_Symptom_Present,HP:0001805
+92,Intellectual_disability_Symptom_Present,HP:0002024
+93,Bilateral_conductive_hearing_impairment_Symptom_Present,HP:0000699
+94,Splenomegaly_Symptom_Present,HP:0011454
+95,Patent_ductus_arteriosus_Symptom_Present,HP:0009804
+96,Chronic_constipation_Symptom_Present,HP:0000269
+97,Apical_hypertrophic_cardiomyopathy_Symptom_Present,HP:0002999
+98,Hemiatrophy_Symptom_Present,HP:0000568
+99,Clinodactyly_Symptom_Present,HP:0012905
+100,Tetralogy_of_Fallot_Symptom_Present,HP:0000455
+101,Hypoglycemic_seizures_Symptom_Present,HP:0001844
+102,Sparse_hair_Symptom_Present,HP:0001698
+103,Thick_lower_lip_vermilion_Symptom_Present,HP:0001653
+104,Hypogonadism_Symptom_Present,HP:0000629
+105,Persistent_left_superior_vena_cava_Symptom_Present,HP:0001667
+106,Skin_tags_Symptom_Present,HP:0009767
+107,Cleft_palate_Symptom_Present,HP:0045075
+108,Abnormal_aortic_morphology_Symptom_Present,HP:0000739
+109,Pelvic_kidney_Symptom_Present,HP:0001627
+110,Widely_spaced_teeth_Symptom_Present,HP:0000729
+111,Abnormal_corpus_callosum_morphology_Symptom_Present,HP:0002098
+112,Umbilical_hernia_Symptom_Present,HP:0000414
+113,Bulbous_nose_Symptom_Present,HP:0000690
+114,Mild_hearing_impairment_Symptom_Present,HP:0011611
+115,Long_eyelashes_Symptom_Present,HP:0002714
+116,Visual_hallucinations_Symptom_Present,HP:0000691
+117,Growth_delay_Symptom_Present,HP:0000565
+118,Esotropia_Symptom_Present,HP:0001636
+119,Skin_rash_Symptom_Present,HP:0002719
+120,Persistence_of_primary_teeth_Symptom_Present,HP:0000316
+121,Cardiomyopathy_Symptom_Present,HP:0000289
+122,Wide_nasal_bridge_Symptom_Present,HP:0005180
+123,"Intellectual_disability,_moderate_Symptom_Present",HP:0000793
+124,Hypoplastic_helices_Symptom_Present,HP:0001045
+125,Glaucoma_Symptom_Present,HP:0001263
+126,Hypopigmentation_of_the_skin_Symptom_Present,HP:0009796
+127,Broad_finger_Symptom_Present,HP:0006346
+128,Coarctation_of_aorta_Symptom_Present,HP:0001367
+129,Abnormal_helix_morphology_Symptom_Present,HP:0000437
+130,Joint_laxity_Symptom_Present,HP:0000377
+131,Choanal_atresia_Symptom_Present,HP:0000384
+132,Macrotia_Symptom_Present,HP:0000164
+133,Microtia_Symptom_Present,HP:0040180
+134,Decreased_response_to_growth_hormone_stimulation_test_Symptom_Present,HP:0008936
+135,High_palate_Symptom_Present,HP:0006335
+136,Wide_nasal_base_Symptom_Present,HP:0000085
+137,Abnormal_cochlea_morphology_Symptom_Present,HP:0001804
+138,Anteriorly_placed_anus_Symptom_Present,HP:0008513
+139,Coloboma_Symptom_Present,HP:0012472
+140,Downslanted_palpebral_fissures_Symptom_Present,HP:0008551
+141,Microcephaly_Symptom_Present,HP:0005233
+142,Abnormality_of_the_spleen_Symptom_Present,HP:0001631
+143,Decreased_circulating_IgA_level_Symptom_Present,HP:0001537
+144,Hyperechogenic_kidneys_Symptom_Present,HP:0100556
+145,Congenital_hypothyroidism_Symptom_Present,HP:0011456
+146,Motor_delay_Symptom_Present,HP:0009381
+147,Sensorineural_hearing_impairment_Symptom_Present,HP:0008587
+148,Diastema_Symptom_Present,HP:0000081
+149,Preauricular_skin_tag_Symptom_Present,HP:0001680
+150,Hypoplasia_of_the_uterus_Symptom_Present,HP:0000738
+151,Aplasia_of_the_maxilla_Symptom_Present,HP:0000637
+152,"High,_narrow_palate_Symptom_Present",HP:0003298
+153,Skin_dimple_Symptom_Present,HP:0002750
+154,Selective_tooth_agenesis_Symptom_Present,HP:0001385
+155,Spina_bifida_occulta_Symptom_Present,HP:0000174
+156,Aplasia/Hypoplasia_of_the_phalanges_of_the_4th_finger_Symptom_Present,HP:0005486
+157,Bicuspid_aortic_valve_Symptom_Present,HP:0000175
+158,Small_nail_Symptom_Present,HP:0011950
+159,Eczema_Symptom_Present,HP:0001883
+160,Short_2nd_toe_Symptom_Present,HP:0002367
+161,Abnormality_of_dental_eruption_Symptom_Present,HP:0000771
+162,Prominent_digit_pad_Symptom_Present,HP:0002557
+163,Strabismus_Symptom_Present,HP:0000452
+164,Abnormal_maxilla_morphology_Symptom_Present,HP:0012304
+165,Abnormality_of_the_malleus_Symptom_Present,HP:0000193
+166,Abnormality_of_the_hairline_Symptom_Present,HP:0007930
+167,Abnormal_joint_morphology_Symptom_Present,HP:0002353
+168,Kyphosis_Symptom_Present,HP:0012303
+169,Hyperactivity_Symptom_Present,HP:0100660
+170,Pancreatic_hypoplasia_Symptom_Present,HP:0031564
+171,Inguinal_hernia_Symptom_Present,HP:0007700
+172,Intraventricular_hemorrhage_Symptom_Present,HP:0002414
+173,Premature_thelarche_Symptom_Present,HP:0012583
+174,Recurrent_otitis_media_Symptom_Present,HP:0000851
+175,Rocker_bottom_foot_Symptom_Present,HP:0002321
+176,Cupped_ear_Symptom_Present,HP:0010804
+177,Abnormal_renal_pelvis_morphology_Symptom_Present,HP:0000598
+178,Abnormal_aortic_arch_morphology_Symptom_Present,HP:0010941
+179,Glomerular_sclerosis_Symptom_Present,HP:0005692
+180,Severe_hearing_impairment_Symptom_Present,HP:0008589
+181,Long_philtrum_Symptom_Present,HP:0007651
+182,Branchial_sinus_Symptom_Present,HP:0001888
+183,Overlapping_toe_Symptom_Present,HP:0010751
+184,Abnormal_tracheal_morphology_Symptom_Present,HP:0001772
+185,Patellar_dislocation_Symptom_Present,HP:0000252
+186,Horseshoe_kidney_Symptom_Present,HP:0001273
+187,Coronal_cleft_vertebrae_Symptom_Present,HP:0100269
+188,Short_5th_finger_Symptom_Present,HP:0006191
+189,Extrapyramidal_dyskinesia_Symptom_Present,HP:0005273
+190,Abnormality_of_the_skeletal_system_Symptom_Present,HP:0001562
+191,Underdeveloped_nasal_alae_Symptom_Present,HP:0001655
+192,Polyuria_Symptom_Present,HP:0001852
+193,Aplasia_of_the_semicircular_canal_Symptom_Present,HP:0000326
+194,Lateral_ventricle_dilatation_Symptom_Present,HP:0200006
+195,Mitral_atresia_Symptom_Present,HP:0004383
+196,Anal_atresia_Symptom_Present,HP:0007655
+197,Large_earlobe_Symptom_Present,HP:0001374
+198,Prominent_fingertip_pads_Symptom_Present,HP:0000577
+199,Aplasia_of_the_nasal_bone_Symptom_Present,HP:0031846
+200,Thick_vermilion_border_Symptom_Present,HP:0020128
+201,Absent_nipple_Symptom_Present,HP:0000280
+202,Hypoplasia_of_the_vestibule_of_the_inner_ear_Symptom_Present,HP:0001816
+203,Small_face_Symptom_Present,HP:0000348
+204,Abnormality_of_the_genitourinary_system_Symptom_Present,HP:0000988
+205,Tricuspid_regurgitation_Symptom_Present,HP:0003834
+206,Aplasia_of_the_thymus_Symptom_Present,HP:0001545
+207,Membranoproliferative_glomerulonephritis_Symptom_Present,HP:0002143
+208,Auricular_pit_Symptom_Present,HP:0002023
+209,Hypoparathyroidism_Symptom_Present,HP:0002036
+210,Delayed_skeletal_maturation_Symptom_Present,HP:0008245
+211,Syndactyly_Symptom_Present,HP:0000826
+212,Abnormal_cardiac_septum_morphology_Symptom_Present,HP:0030353
+213,Talipes_equinovalgus_Symptom_Present,HP:0001671
+214,Pulmonary_artery_hypoplasia_Symptom_Present,HP:0004719
+215,Telecanthus_Symptom_Present,HP:0000564
+216,Seizure_Symptom_Present,HP:0004415
+217,Bilateral_sensorineural_hearing_impairment_Symptom_Present,HP:0000135
+218,Posteriorly_rotated_ears_Symptom_Present,HP:0004467
+219,Clinodactyly_of_the_5th_finger_Symptom_Present,HP:0000430
+220,Bronchiectasis_Symptom_Present,HP:0009748
+221,Morphological_abnormality_of_the_vestibule_of_the_inner_ear_Symptom_Present,HP:0000822
