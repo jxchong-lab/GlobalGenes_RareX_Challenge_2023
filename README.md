@@ -13,7 +13,7 @@ In Task 1, the GGRC provided de-identified, individual-level phenotypic data ass
 
 We needed to map each symptom label in the GGRC dataset to an HPO term in order to take advantage of the HPO/OMIM/OrphaNet database. We used multiple methods (NLP as well as tree-based similarity) to identify potentially overlapping symptoms/terms between GGRC and HPO. These terms were manually reviewed to confirm/refute potential overlap. We also reviewed the output of these scripts manually to identify the differences that were most likely to be clinically meaningful and therefore of interest to GGRC. 
 
-We provide a randomly generated dataset 'Survey_Random_Data.csv' to work and we call this dataset 'survey dataset' in our code.
+We provide a randomly generated dataset 'Survey_Random_Data.csv' to work and we call this dataset 'survey dataset' in our code. Note, this is fake generate data, so the results is as well.
 
 ## Mehtod
 ### Clean and filter data
@@ -417,7 +417,7 @@ We show some examples to find the novel term, new terms, and common terms for a 
 disease = rx_orphanet_summary.loc[rx_orphanet_summary.index==rx_in_orphanet[0]]
 ```
 
-Novel terms: The following new terms which are top terms for the Kleefstra syndrome show that abnormality of coordination, Somnambulism, Sleep onset insomnia, Drowsiness, Seizure, Abnormality of the musculature, Sleep apnea, .. are common. These terms are important terms for the Kleefstra syndrome but not exist/matched in the hpo/orpha dataset.
+Novel terms: The following new terms which are top terms for the Disease 1/Robinow syndrome show that Screwdriver-shaped incisors, Malformed lacrimal duct, Femur fracture, .. are common. These terms are important terms for the Kleefstra syndrome but not exist/matched in the hpo/orpha dataset.
 ```python
 disease[disease['top_terms_not_match_but_frequent']==1]
 ```
@@ -458,7 +458,7 @@ disease[disease['top_terms_not_match_but_frequent']==1]
   </thead>
   <tbody>
     <tr>
-      <td>Kleefstra syndrome</td>
+      <td>Robinow syndrome</td>
       <td>Coordination_Issues_Symptom_Present</td>
       <td>x</td>
       <td>x</td>
@@ -474,7 +474,7 @@ disease[disease['top_terms_not_match_but_frequent']==1]
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>Kleefstra syndrome</td>
+      <td>Robinow syndrome</td>
       <td>New in RareX</td>
       <td>HPO(0.44) Seizure: Frequent (79-30%)</td>
       <td>Not match</td>
@@ -493,7 +493,7 @@ disease[disease['top_terms_not_match_but_frequent']==1]
 </table>
 
 
-New terms: The following terms are new and top terms for the Kleefstra syndrome. We see 'Abnormality of coordination', 'Somnambulism', 'Sleep onset insomnia', 'Drowsiness', .. from the follwing lists are new or different from hpo or orphanet dataset. 
+New terms: The following terms are new and top terms for the Disease 1/Robinow syndrome. We see 'AScrewdriver-shaped incisors', 'Malformed lacrimal duct', 'Femur fracture', .. from the follwing lists are new or different from hpo or orphanet dataset.
 ```python
 disease[disease['NewRareX']==1]
 ```
@@ -535,7 +535,7 @@ disease[disease['NewRareX']==1]
   </thead>
   <tbody>
     <tr>
-      <td>Kleefstra syndrome</td>
+      <td>Robinow syndrome</td>
       <td>Coordination_Issues_Symptom_Present</td>
       <td>x</td>
       <td>x</td>
@@ -551,7 +551,7 @@ disease[disease['NewRareX']==1]
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>Kleefstra syndrome</td>
+      <td>Robinow syndrome</td>
       <td>New in RareX</td>
       <td>HPO(0.44) Seizure: Frequent (79-30%)</td>
       <td>Not match</td>
