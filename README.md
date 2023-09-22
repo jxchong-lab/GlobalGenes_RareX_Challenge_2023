@@ -13,7 +13,7 @@ In Task 1, the GGRC provided de-identified, individual-level phenotypic data ass
 
 We needed to map each symptom label in the GGRC dataset to an HPO term in order to take advantage of the HPO/OMIM/OrphaNet database. We used multiple methods (NLP as well as tree-based similarity) to identify potentially overlapping symptoms/terms between GGRC and HPO. These terms were manually reviewed to confirm/refute potential overlap. We also reviewed the output of these scripts manually to identify the differences that were most likely to be clinically meaningful and therefore of interest to GGRC. 
 
-We provide a randomly generated dataset 'Survey_Random_Data.csv' to work and we call this dataset 'survey dataset' in our code. Note, this is fake generate data, so the results is as well.
+We provide a randomly generated dataset 'Survey_Random_Data.csv' to work and we call this dataset 'survey dataset' in our code. Note, this is fake generate data, so the results are as well.
 
 ## Mehtod
 ### Clean and filter data
